@@ -1,0 +1,19 @@
+Команди для запуску тестування
+
+Створення віртуального середовища
+python3 -m venv (назва середовища)
+
+Створення приклад
+C:\Users\Name\djangogirls> C:\Python34\python -m venv (назва середовища)
+
+Активувати середовище приклад
+C:\Users\Name\djangogirls> myvenv\Scripts\activate
+
+Приклад встановлення django середовища
+C:\Users\Name\djangogirls> python -m pip install django==1.11
+
+Приклад створення скілету сайту
+(myvenv) C:\Users\Name\djangogirls> django-admin startproject mysite .
+
+Запуск серверу проекту сайту
+(myvenv) папка сайту проекту чере командну строку python manage.py runserver
